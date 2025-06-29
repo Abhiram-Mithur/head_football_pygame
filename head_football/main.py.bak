@@ -1,0 +1,20 @@
+    def fix_goal_positions(self):
+        """Ensure goals are at the correct fixed position"""
+        # Calculate the correct goal position
+        field_height = 200  # Height of the field surface
+        goal_area_height = 80  # Match the goal area height from field markings
+        field_y = GROUND_HEIGHT - 100
+        
+        # Calculate goal area position - center it vertically in the field
+        goal_area_y = field_y + (field_height - goal_area_height) // 2
+        
+        # Force goals to this position
+        if hasattr(self, 'left_goal') and hasattr(self, 'right_goal'):
+            self.left_goal.y = goal_area_y
+            self.left_goal.rect.y = goal_area_y
+            
+            self.right_goal.y = goal_area_y
+            self.right_goal.rect.y = goal_area_y
+            
+        # Store this position for future reference
+        self.goal_area_y = goal_area_y

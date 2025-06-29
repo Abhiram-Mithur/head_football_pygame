@@ -1,0 +1,37 @@
+# Player Profiles
+
+## Speedy
+The fastest player on the field. Has excellent acceleration and top speed, but lacks power in headers.
+- Speed: ★★★★★
+- Jump: ★★★★☆
+- Power: ★★☆☆☆
+- Control: ★★☆☆☆
+
+## Powerful
+A strong player with powerful headers. Can send the ball flying across the field but moves slowly.
+- Speed: ★★☆☆☆
+- Jump: ★★★☆☆
+- Power: ★★★★★
+- Control: ★★★☆☆
+
+## Balanced
+A well-rounded player with no major weaknesses. Good at everything but not exceptional in any area.
+- Speed: ★★★☆☆
+- Jump: ★★★★☆
+- Power: ★★★☆☆
+- Control: ★★★☆☆
+
+## Technical
+A technical player with excellent ball control. Can place headers with precision but lacks raw power.
+- Speed: ★★★☆☆
+- Jump: ★★★☆☆
+- Power: ★★★☆☆
+- Control: ★★★★★
+
+## Jumper
+An acrobatic player with incredible jumping ability. Can reach balls that others can't.
+- Speed: ★★★☆☆
+- Jump: ★★★★★
+- Power: ★★★☆☆
+- Control: ★★☆☆☆
+
